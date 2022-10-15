@@ -11,6 +11,11 @@ export class ViewAllTrainComponent implements OnInit {
 
   name="ria"
 
+  readValues=()=>{
+      this.name="raju"
+    
+  }
+
   ngOnInit(): void {
   }
 
